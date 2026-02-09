@@ -6,21 +6,18 @@ title: Ripon Chandra Sarker
 first_name: Ripon 
 middle_name: C.
 last_name: Sarker
-contact_note: >
-  Email is the best way to reach me for academic, research, and collaboration-related inquiries.
+contact_note: Email is the best way to reach me for academic, research, and collaboration-related inquiries.
 
-description: >
-  Personal academic website of Ripon Chandra Sarker, Ph.D. student in Aerospace Engineering at Iowa State University.
-  My research focuses on UAVs and eVTOL aircraft, rotorcraft aeromechanics, and physics-guided machine learning
-  for fault detection, diagnosis, and prognosis in autonomous aerial systems.
+description: Personal academic website of Ripon Chandra Sarker, Ph.D. student in Aerospace Engineering at Iowa State University.
+  My research focuses on Stochastic Control, Machine Learning, Rotorcraft aeromechanics, and Aircraft Design.
 
-footer_text: >
+footer_text: 
   © Ripon Chandra Sarker.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> academic theme.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-keywords: aerospace engineering, uav, vtol, rotorcraft, fault detection, machine learning, physics-guided ml, optimal transport, academic website
+keywords: aerospace engineering, stochastic control, machine learning, uav, vtol, rotorcraft, fault detection,  academic website
 lang: en
 icon: 🚁
 
