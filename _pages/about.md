@@ -6,7 +6,7 @@ subtitle: Aerospace Engineering, Iowa State University
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> Howe Hall (Room 2238), </p>
