@@ -29,7 +29,7 @@ latest_posts:
 
 I am a Ph.D. student in Aerospace Engineering at Iowa State University advised by  [Dr. Abhishek Halder](https://abhishekhalder.org/). Before joining Iowa State, I have completed my Master's in Mechanical and Aerospace Engineering from Oklahoma State University. My research focuses on stochastic control, machine learning, rotorcraft aeromechanics, and eVTOL aircraft design. 
 
-I am delighted to discuss about research projects. 
+I am delighted to collaborate and discuss about research projects. 
 
 Email: rcsarker@iastate.edu
 
