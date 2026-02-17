@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p> 2238 Howe Hall   </p>
+    <p> 2238 Howe Hall, </p>
     <p>537 Bissell Rd </p>
     <p>Ames, IA, USA - 50011 </p>
 
