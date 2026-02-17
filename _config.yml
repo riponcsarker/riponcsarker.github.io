@@ -7,14 +7,6 @@ first_name: Ripon
 middle_name: C.
 last_name: Sarker
 
-contact_note: >
-  Email is the best way to reach me for academic, research, and collaboration-related inquiries.
-
-description: >
-  Personal academic website of Ripon Chandra Sarker, Ph.D. student in Aerospace Engineering
-  at Iowa State University. My research focuses on stochastic control, machine learning,
-  UAVs, rotorcraft aeromechanics, and aircraft design.
-
 footer_text: >
   © Ripon Chandra Sarker.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the
