@@ -9,12 +9,12 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p> Howe Hall (Room 2238), </p>
+    <p> 2238 Howe Hall , </p>
     <p>537 Bissell Rd</p>
     <p>Ames, IA, USA - 50011</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Aerospace Engineering at Iowa State University advised by  [Dr. Abhishek Halder](https://abhishekhalder.org/). Before joining Iowa State, I have completed my Master's in Mechanical and Aerospace Engineering from Oklahoma State University. My research focuses on stochastic control, machine learning, rotorcraft aeromechanics, and eVTOL aircraft design. 
+I am a Ph.D. student in Aerospace Engineering at Iowa State University advised by  [Dr. Abhishek Halder](https://abhishekhalder.org/). Before joining Iowa State, I have completed my Master's in Mechanical and Aerospace Engineering from Oklahoma State University. My research focuses on optimal transport, stochastic control, machine learning, rotorcraft aeromechanics, and eVTOL aircraft design. 
 
 I am delighted to collaborate and discuss about research projects. 
 
