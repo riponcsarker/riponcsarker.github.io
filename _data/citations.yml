@@ -1,23 +1,27 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-25'
 papers:
   5ZsYH9EAAAAJ:2osOgNQ5qMEC:
-    citations: 0
+    citations: 1
     title: A Machine Learning Framework for Fault Detection, Isolation, and Severity Prediction of Autonomous VTOL Aircraft
     year: '2026'
   5ZsYH9EAAAAJ:9yKSN-GCB0IC:
-    citations: 1
+    citations: 2
     title: Design, Development, and Subscale Flight Testing of an Emergency Response eVTOL Aircraft
     year: '2026'
   5ZsYH9EAAAAJ:d1gkVwhDpl0C:
-    citations: 1
+    citations: 2
     title: Design and Development of a Custom-Built Static Test Stand to Evaluate the Aerodynamic Performance of Coaxial Propellers
     year: '2026'
+  5ZsYH9EAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Investigation of Machine Learning-Based Fault Detection and Severity Estimation in Unmanned Aerial Systems
+    year: '2025'
   5ZsYH9EAAAAJ:u-x6o8ySG0sC:
-    citations: 4
+    citations: 5
     title: Aerodynamic Performance Evaluation of Coaxial Propellers Using a Custom-Built Hover Test Stand
     year: '2025'
   5ZsYH9EAAAAJ:u5HHmVD_uO8C:
-    citations: 12
+    citations: 13
     title: Voltage sag compensation in distribution system using dynamic voltage restorer
     year: '2020'
