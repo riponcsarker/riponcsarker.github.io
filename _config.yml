@@ -13,7 +13,7 @@ footer_text: >
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> academic theme.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-keywords: aerospace engineering, stochastic control, machine learning, uav, vtol, rotorcraft, fault detection, academic website
+keywords: optimal transport, stochastic control, machine learning, convex optimization, eVTOL, UAV fault detection
 
 lang: en
 icon: 🚁
