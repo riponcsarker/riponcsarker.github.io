@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Control Laguerre Tessellation:  Semi-discrete Optimal Transport Over Control Systems
+title: "Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems"
 img: assets/img/projects/clt/clt_cover.png
 importance: 1
 category: research
