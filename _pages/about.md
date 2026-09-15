@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: About
 title: About
 permalink: /
 subtitle: Aerospace Engineering, Iowa State University
