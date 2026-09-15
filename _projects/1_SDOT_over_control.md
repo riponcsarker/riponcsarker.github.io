@@ -36,8 +36,8 @@ The objective of this work is to extend semi-discrete optimal transport to syste
 The transport problem is
 
 $$
-\min_{T_\#\mu=\nu}
-\int_{\mathcal{X}} c(x,T(x))\,d\mu(x),
+\min_{T_{\sharp}\mu=\nu}
+\int_{\mathcal{X}} c(x,T(x))\,d\mu(x).
 $$
 
 where the ground cost $c(x,y_i)$ represents the optimal cost of steering a controlled dynamical system from $x$ to $y_i$.
@@ -58,7 +58,6 @@ c(x,y_j)+\psi_j,
 $$
 
 These generalized Laguerre cells form the **Control Laguerre Tessellation**.
-
 
 ## Main Contributions
 
