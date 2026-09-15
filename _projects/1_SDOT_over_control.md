@@ -18,7 +18,7 @@ The resulting partition of the state space is called a **Control Laguerre Tessel
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/projects/clt/clt_overview.png"
+           path="assets/img/CLT_background.png"
            title="Control Laguerre Tessellation"
            class="img-fluid rounded z-depth-1" %}
     </div>
@@ -88,53 +88,6 @@ These generalized Laguerre cells form the **Control Laguerre Tessellation**.
 <div class="caption">
 Examples of Control Laguerre Tessellations generated using optimal-control-induced transport costs.
 </div>
-
-
-## Minimum-Energy Transport
-
-For a linear control system
-
-$$
-\dot{x}(t)=A(t)x(t)+B(t)u(t),
-$$
-
-the minimum-energy ground cost is
-
-$$
-c_{\mathrm{energy}}(x,y)
-=
-\min_{u}
-\int_0^1 \|u(t)\|_2^2\,dt.
-$$
-
-For controllable linear systems, this cost admits the closed-form expression
-
-$$
-c_{\mathrm{energy}}(x,y)
-=
-(\Phi x-y)^\top
-M^{-1}
-(\Phi x-y),
-$$
-
-where $\Phi$ is the state transition matrix and $M$ is the controllability Gramian.
-
-The corresponding Control Laguerre cells become **convex polyhedral regions**.
-
-
-## Minimum-Time Transport
-
-We also consider the minimum-time control problem
-
-$$
-\dot{x}(t)=u(t)+w(t),
-$$
-
-where $w(t)$ represents a known time-varying exogenous field such as wind or flow.
-
-The transport cost is the minimum time required to steer an agent from its initial state to its assigned target while satisfying the control constraints.
-
-This produces Laguerre partitions whose geometry reflects both the target locations and the underlying controlled dynamics.
 
 
 ## Why This Matters
