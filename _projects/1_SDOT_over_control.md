@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Control Laguerre Tessellation
-description: Semi-discrete optimal transport over control systems
+title: Control Laguerre Tessellation:  Semi-discrete Optimal Transport Over Control Systems
 img: assets/img/projects/clt/clt_cover.png
 importance: 1
 category: research
 related_publications: true
 ---
-
-## Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems
 
 This research investigates **semi-discrete optimal transport (SDOT)** when the ground cost is induced by the optimal motion of controlled dynamical systems.
 
