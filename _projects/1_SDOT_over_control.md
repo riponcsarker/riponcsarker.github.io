@@ -18,7 +18,7 @@ The resulting partition of the state space is called a **Control Laguerre Tessel
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid
            loading="eager"
-           path="assets/img/CLT_background.png"
+           path="assets/img/CLT/CLT_cover.png"
            title="Control Laguerre Tessellation"
            class="img-fluid rounded z-depth-1" %}
     </div>
