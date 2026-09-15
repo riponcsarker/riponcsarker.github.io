@@ -2,7 +2,7 @@
 layout: page
 title: Control Laguerre Tessellation
 description: Semi-discrete Optimal Transport Over Control Systems
-img: assets/img/projects/clt/clt_cover.png
+img: assets/img/CLT/CLT_cover.png
 importance: 1
 category: research
 related_publications: true
@@ -68,8 +68,14 @@ These generalized Laguerre cells form the **Control Laguerre Tessellation**.
 - Analysis of **minimum-time transport** in the presence of an exogenous vector field.
 - Numerical construction of the resulting tessellations.
 
-
 <div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/CLD_se.png"
+           title="Laguerre Tessellation: Squared-Euclidean Cost"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid
            path="assets/img/CLT/CLD_MinEnergy.png"
@@ -83,21 +89,21 @@ These generalized Laguerre cells form the **Control Laguerre Tessellation**.
            title="Control Laguerre Tessellation: Minimum-Time Cost"
            class="img-fluid rounded z-depth-1" %}
     </div>
-
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid
-           path="assets/img/CLT/CLD_se.png"
-           title="Laguerre Tessellation: Squared-Euclidean Cost"
-           class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
 <div class="caption">
-Control Laguerre tessellations generated using minimum-energy, minimum-time, and squared-Euclidean ground costs.
+Laguerre tessellations generated using squared-Euclidean, minimum-energy, and minimum-time ground costs.
 </div>
 
 
 <div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/cost_contours_se.png"
+           title="Squared-Euclidean Cost Contours"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid
            path="assets/img/CLT/cost_contours_MinEnergy.png"
@@ -111,17 +117,10 @@ Control Laguerre tessellations generated using minimum-energy, minimum-time, and
            title="Minimum-Time Cost Contours"
            class="img-fluid rounded z-depth-1" %}
     </div>
-
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid
-           path="assets/img/CLT/cost_contours_se.png"
-           title="Squared-Euclidean Cost Contours"
-           class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
 <div class="caption">
-Corresponding ground-cost contours for the minimum-energy, minimum-time, and squared-Euclidean transport problems.
+Corresponding ground-cost contours for the squared-Euclidean, minimum-energy, and minimum-time transport problems.
 </div>
 
 
