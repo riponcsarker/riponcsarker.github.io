@@ -70,24 +70,65 @@ These generalized Laguerre cells form the **Control Laguerre Tessellation**.
 
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid
-           path="assets/img/projects/clt/min_energy.png"
-           title="Minimum-energy Control Laguerre Tessellation"
+           path="assets/img/CLT/CLD_MinEnergy.png"
+           title="Control Laguerre Tessellation: Minimum-Energy Cost"
            class="img-fluid rounded z-depth-1" %}
     </div>
 
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid
-           path="assets/img/projects/clt/min_time.png"
-           title="Minimum-time Control Laguerre Tessellation"
+           path="assets/img/CLT/CLD_MinTime.png"
+           title="Control Laguerre Tessellation: Minimum-Time Cost"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/CLD_se.png"
+           title="Laguerre Tessellation: Squared-Euclidean Cost"
            class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="caption">
-Examples of Control Laguerre Tessellations generated using optimal-control-induced transport costs.
+Control Laguerre tessellations generated using minimum-energy, minimum-time, and squared-Euclidean ground costs.
 </div>
+
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/cost_contours_MinEnergy.png"
+           title="Minimum-Energy Cost Contours"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/cost_contours_MinTime.png"
+           title="Minimum-Time Cost Contours"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+           path="assets/img/CLT/cost_contours_se.png"
+           title="Squared-Euclidean Cost Contours"
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+Corresponding ground-cost contours for the minimum-energy, minimum-time, and squared-Euclidean transport problems.
+</div>
+
+
+The figures illustrate how the geometry of the transport partition changes with the choice of ground cost. 
+For the squared-Euclidean cost, the resulting partition corresponds to the classical power-diagram setting. 
+When the ground cost is induced by an optimal control problem, the cell geometry reflects the underlying system dynamics and the associated control objective. 
+In particular, the minimum-energy formulation incorporates the dynamics and controllability of the system, while the minimum-time formulation captures the effect of time-optimal motion and external disturbances.
 
 
 ## Why This Matters
