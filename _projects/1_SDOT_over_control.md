@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems"
+title: Control Laguerre Tessellation
+description: Semi-discrete Optimal Transport Over Control Systems
 img: assets/img/projects/clt/clt_cover.png
 importance: 1
 category: research
@@ -30,20 +31,20 @@ Control Laguerre Tessellation for semi-discrete optimal transport over controlle
 
 ## Research Objective
 
-The objective of this work is to extend semi-discrete optimal transport to systems in which transporting an agent from an initial state \(x\) to a target state \(y_i\) requires solving an optimal control problem.
+The objective of this work is to extend semi-discrete optimal transport to systems in which transporting an agent from an initial state $x$ to a target state $y_i$ requires solving an optimal control problem.
 
 The transport problem is
 
-\[
+$$
 \min_{T_\#\mu=\nu}
 \int_{\mathcal{X}} c(x,T(x))\,d\mu(x),
-\]
+$$
 
-where the ground cost \(c(x,y_i)\) represents the optimal cost of steering a controlled dynamical system from \(x\) to \(y_i\).
+where the ground cost $c(x,y_i)$ represents the optimal cost of steering a controlled dynamical system from $x$ to $y_i$.
 
 Instead of defining cells only from geometric distance, the state space is partitioned according to
 
-\[
+$$
 \operatorname{Lag}_i(\psi)
 =
 \left\{
@@ -54,7 +55,7 @@ c(x,y_i)+\psi_i
 c(x,y_j)+\psi_j,
 \quad \forall j\neq i
 \right\}.
-\]
+$$
 
 These generalized Laguerre cells form the **Control Laguerre Tessellation**.
 
@@ -94,30 +95,30 @@ Examples of Control Laguerre Tessellations generated using optimal-control-induc
 
 For a linear control system
 
-\[
+$$
 \dot{x}(t)=A(t)x(t)+B(t)u(t),
-\]
+$$
 
 the minimum-energy ground cost is
 
-\[
+$$
 c_{\mathrm{energy}}(x,y)
 =
 \min_{u}
 \int_0^1 \|u(t)\|_2^2\,dt.
-\]
+$$
 
 For controllable linear systems, this cost admits the closed-form expression
 
-\[
+$$
 c_{\mathrm{energy}}(x,y)
 =
 (\Phi x-y)^\top
 M^{-1}
 (\Phi x-y),
-\]
+$$
 
-where \(\Phi\) is the state transition matrix and \(M\) is the controllability Gramian.
+where $\Phi$ is the state transition matrix and $M$ is the controllability Gramian.
 
 The corresponding Control Laguerre cells become **convex polyhedral regions**.
 
@@ -126,11 +127,11 @@ The corresponding Control Laguerre cells become **convex polyhedral regions**.
 
 We also consider the minimum-time control problem
 
-\[
+$$
 \dot{x}(t)=u(t)+w(t),
-\]
+$$
 
-where \(w(t)\) represents a known time-varying exogenous field such as wind or flow.
+where $w(t)$ represents a known time-varying exogenous field such as wind or flow.
 
 The transport cost is the minimum time required to steer an agent from its initial state to its assigned target while satisfying the control constraints.
 
@@ -149,11 +150,9 @@ Potential applications include:
 
 - Multi-robot coordination
 - Robotic coverage control
-- Autonomous vehicle guidance
 - Resource allocation
 - Micro-assembly
 - Targeted drug delivery
-- Transportation under environmental disturbances
 
 
 ## Publication
